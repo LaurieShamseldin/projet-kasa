@@ -1,0 +1,17 @@
+.home__gallery {
+  padding:3rem;
+  background:#F6F6F6;
+  border-radius:25px;
+  margin: 30px 6rem 0 6rem;;
+}
+
+.home__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.home__logement {
+  width:31%;
+}

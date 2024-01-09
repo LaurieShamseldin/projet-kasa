@@ -1,0 +1,9 @@
+.carousel {
+  border-radius: 0.5rem;
+}
+
+.carrousel__img {
+  height: 415px;
+  object-fit: cover;
+  width: 100%;
+}

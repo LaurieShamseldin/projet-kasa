@@ -1,0 +1,9 @@
+.score {
+  margin-top:10px;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.score img {
+  margin-right:10px;
+}

@@ -13,16 +13,6 @@ const Carousel = ({ pictures }) => {
   };
   return (
     <section className="carousel">
-      {lengthPictures > 1 && (
-        <p className="leftArrow" onClick={previousImage}>
-          <i className="fa-solid fa-chevron-left"></i>
-        </p>
-      )}
-      {lengthPictures > 1 && (
-        <p className="rightArrow" onClick={nextImage}>
-          <i className="fa-solid fa-chevron-right"></i>
-        </p>
-      )}
       {pictures.map((picture, index) => (
         <div
           key={index} 
@@ -34,12 +24,25 @@ const Carousel = ({ pictures }) => {
         >
           {index === currentPicture && <img src={picture} alt="Appartement" className="carrousel__img"/>}
           {index === currentPicture && (
-            <span className="slider__number">
+            <div className="slider__number">
               {currentPicture + 1}/{lengthPictures}
-            </span>
+            </div>
           )}
         </div>
       ))}
+
+      <div className="carousel__control">
+        {lengthPictures > 1 && (
+          <p className="leftArrow" onClick={previousImage}>
+            <i className="fa-solid fa-chevron-left"></i>
+          </p>
+        )}
+        {lengthPictures > 1 && (
+          <p className="rightArrow" onClick={nextImage}>
+            <i className="fa-solid fa-chevron-right"></i>
+          </p>
+        )}
+      </div>
   </section>
   );
 };

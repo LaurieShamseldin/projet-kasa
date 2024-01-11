@@ -27,3 +27,21 @@
 .header__links a.active {
   text-decoration:underline;
 } 
+
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    margin: 0 1rem;
+  }
+
+  .header__info img {
+    height:40px;
+  }
+
+  .header__links a {
+    font-size:12px;
+    text-transform: uppercase;
+    padding-left:10px;
+  }
+}

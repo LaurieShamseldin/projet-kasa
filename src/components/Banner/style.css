@@ -24,3 +24,21 @@
   color:white;
   font-size:35px;
 } 
+
+@media screen and (max-width: 768px) { 
+
+  .banner {
+    justify-content: left;
+  }
+  
+  .banner__txt {
+    font-size:20px;
+    width:300px;
+    margin-left: 20px;
+  }
+
+  .banner__img {
+    height:110px;
+  }
+
+}

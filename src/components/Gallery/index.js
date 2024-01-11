@@ -12,7 +12,7 @@ const Gallery = () => (
                 <Card image={logement.cover} title={logement.title} className="home__card"/>
               </NavLink>
             </article>
-      ))};
+      ))}
     </div>
   </section>
 );

@@ -1,9 +1,64 @@
 .carousel {
-  border-radius: 0.5rem;
+  position:relative;
 }
 
 .carrousel__img {
   height: 415px;
   object-fit: cover;
   width: 100%;
+  border-radius:10px;
+}
+
+.carousel__control {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size:75px;
+  color:white;
+}
+
+.leftArrow {
+  margin-left: 30px;
+}
+
+.rightArrow {
+  margin-right:30px;
+}
+
+.slider  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slider__number {
+  position:absolute;
+  bottom:20px;
+  color:white;
+  font-size:18px;
+}
+
+@media screen and (max-width: 768px) {
+  .carrousel__img {
+    height:255px;
+  }
+
+  .carousel__control {
+    font-size:20px;
+  }
+
+  .leftArrow {
+    margin-left:10px;
+  }
+
+  .rightArrow {
+    margin-right:10px;
+  }
+  
 }

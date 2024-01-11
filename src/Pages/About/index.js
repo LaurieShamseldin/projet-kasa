@@ -7,13 +7,13 @@ import './style.css';
 const About = () => (
   <div className="about">
    <main className="main">
-    <Banner text="Chez vous, partout et ailleurs" image={imageBanner} textImage=""/>
+    <Banner text="" image={imageBanner} textImage=""/>
     <div className="about__collapse">
       {collapses.map((collapse) => (
         <article key={collapse.id} className="collapse__article">      
           <Collapse description={collapse.description} title={collapse.title}/>
         </article>
-      ))};
+      ))}
       </div>
     </main>
   </div>

@@ -17,3 +17,14 @@
   width: 65px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+  .host__name {
+    font-size:12px;
+  }
+
+  .host__img {
+    height:35px;
+    width:35px;
+  }
+}

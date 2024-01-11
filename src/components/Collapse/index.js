@@ -23,7 +23,7 @@ const Collapse = ({ title, description}) => {
       </div>
       {isOpen && 
       <div className="collapse__content">
-       <p>{description}</p>
+       {description}
       </div> }
     </div>
   );

@@ -7,3 +7,10 @@
 .score img {
   margin-right:10px;
 }
+
+@media screen and (max-width: 768px) {
+  .score img {
+    height:13px;
+  }
+
+}

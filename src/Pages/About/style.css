@@ -10,3 +10,9 @@
 .collapse__article {
   width:100%;
 }
+
+@media screen and (max-width: 768px) {
+  .about__collapse {
+    margin: 2rem 0rem;
+  }
+}

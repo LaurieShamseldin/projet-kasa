@@ -8,10 +8,17 @@
   align-items: center;
   gap:2rem;
   padding:3rem 0;
+  text-align:center;
 }
 
 .footer__credit {
   display:block;
   font-family: 'Montserrat', sans-serif;
   color:white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__credit {
+    font-size:12px;
+  }
 }

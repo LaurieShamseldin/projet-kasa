@@ -49,7 +49,7 @@ const PageLogement = () => {
       </div>
       ) : (
         <Navigate replace to="/404" />
-      )};
+      )}
      </>
   );
 };
